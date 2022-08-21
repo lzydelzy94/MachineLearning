@@ -19,7 +19,7 @@ def gradient(x,y,theta,alpha,times):
 
 
 #读取参数，加上列名
-path = "./Data/ex1data1.txt"
+path = "../Data/ex1data1.txt"
 data = pd.read_csv(path,sep=',',header=None,names=['Population','Profit'])
 data.insert(0,'Ones',1)
 
