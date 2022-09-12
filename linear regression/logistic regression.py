@@ -41,7 +41,7 @@ def accuracy(theta,x,y):  #准确率
     return (sum*100)/length
 
 
-path = "../Data/ex2data1.txt"
+path = "../Data/ex2/ex2data1.txt"
 data = pd.read_csv(path,names=['x1','x2','y'])
 #data.insert(0,'Ones',1)
 

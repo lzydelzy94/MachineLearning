@@ -13,7 +13,7 @@ def getTheta(x,y):
     theta = np.linalg.inv(x.T*x)*x.T*y
     return theta
 
-path = "../Data/ex1data2.txt"
+path = "../Data/ex1/ex1data2.txt"
 data = pd.read_csv(path,header=None, names=['Size','bedroom','price'])
 data.insert(0,'Ones',1)
 

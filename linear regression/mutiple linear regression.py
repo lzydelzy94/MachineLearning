@@ -23,7 +23,7 @@ def gradient(x,y,theta,alpha,times):
 
 
 
-path = "../Data/ex1data2.txt"
+path = "../Data/ex1/ex1data2.txt"
 data = pd.read_csv(path,header=None,names=["Size","bedroom","price"])
 
 #均值归一化
